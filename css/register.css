@@ -1,0 +1,194 @@
+
+#container #p{
+	color:#0095b6;
+}
+#container #p span{
+	color:#008000;
+}
+h1{
+	font-size:30px;
+	padding-bottom:15px;
+	border-bottom:1px solid black;
+}
+h3 {
+	height:auto;
+	padding:5px;
+	color:white;
+	text-align:center;
+	background-color:#18453b;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+h4 {
+	color:#18453b;
+	font-weight:300;
+	font-style:italic;
+	padding-left:60px;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+h5 {
+	color:#be0032;
+	text-shadow:1px 1px 3px gray;
+	padding-left:60px;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+#form table tr td{
+	font-weight:300;
+	padding-bottom:12px;
+}
+#form table tr .Aname{
+	padding-left:60px;
+	padding-right:60px;
+	vertical-align:middle;
+}
+#form  table tr td span {
+	color:red;
+	font-family:'Times New Roman'
+}
+#form table tr td .textField{
+	width:300px;
+	height:30px;
+	font-family:'Roboto', sans-serif;
+	font-size:16px;
+	font-weight:300;
+	border-radius:3px;
+	border:1px solid #b2beb5;
+	padding-left:10px;
+}
+#form table tr td #name {
+	width:155px;
+	margin-right:10px;
+}
+#form table tr td select {
+	width:auto;
+	height:35px;
+	border-radius:3px;
+	padding:5px;
+	font-family:'Roboto', sans-serif;
+	font-size:15px;
+	font-weight:300;
+}
+/*----------------Personal Info Start-----------------*/
+#form table tr td #appphoto{
+	width:150px;
+	height:170px;
+	text-align:center;
+	color:gray;
+	border-radius:3px;
+	border:1px solid #b2beb5;
+}
+#form table tr td .gender{
+	width:15px;
+	height:15px;
+}
+#form table tr td #door{
+	width:70px;
+}
+#form table tr td #street,#form table tr td #locality {
+	width:205px;
+}
+#form table tr td #city, #form table tr td #state{
+	width:140px;
+	margin-top:10px;
+}
+#form table tr td #pincode, #form table tr td #country{
+	width:92px;
+	margin-top:10px;
+}
+#form table tr td #countrycode{
+	width:60px;
+}
+#form table tr td #number{
+	width:220px;
+}
+#form table tr td #emailid{
+	width:295px;
+}
+/*----------------Personal Info End-----------------*/
+/*----------------Educational Info Start-----------------*/
+#form table tr td #institution{
+	width:200px;
+}
+#form table tr td #passing{
+	width:100px;
+}
+#form table tr td #result, #form table tr td #degree{
+	width:60px;
+}
+/*----------------Educational Info End-----------------*/
+/*----------------Reference Start-----------------*/
+#form table tr td #refname{
+	width:260px;
+}
+#form table tr td #refrel {
+	width:100px;
+}
+#form table tr td #refcompany {
+	width:160px;
+}
+#form table tr td #refphone {
+	width:180px;
+	margin-top:10px;
+}
+#form table tr td #refaddress {
+	width:355px;
+	margin-top:10px;
+}
+/*----------------Reference End-----------------*/
+/*-------------------Career Interest Start------------*/
+#form table tr td #inteng, #form table tr td #intplace, #form table tr td #intplacehope, #form table tr td #intacheive, #form table tr td #intskills, #form table tr td #intpers {
+	width:350px;
+	height:100px;
+	padding:10px;
+}
+.pref{
+	margin:5px;
+}
+/*-------------------Career Interest End------------*/
+/*-------------------Disclaimer Start------------*/
+#form table tr .disc {
+	padding-left:60px;
+}
+#form table tr td .disclaimer {
+	width:20px;
+	height:20px;
+	vertical-align:middle;
+}
+#form table tr .Aname #sign{
+	border:none;
+	margin-left:20px;
+}
+#form table tr td #appsign{
+	width:350px;
+	height:50px;
+	text-align:center;
+	color:gray;
+	border-radius:3px;
+	border:1px solid #b2beb5;
+}
+#form table tr .Aname #date{
+	width:143px;
+	text-align:center;
+	margin-left:20px;
+}
+/*-------------------Disclaimer End------------*/
+
+#form .registerButton {
+	width:110px;
+	height:50px;
+	color:white;
+	background-color:#18453b;
+	font-size:18px;
+	font-family:'Roboto', sans-serif;
+	font-weight:300;
+	border:none;
+	border-radius:10px;
+	margin-left:60px;
+	margin-top:20px;
+	margin-bottom:60px;
+}
+#form .registerButton:hover{
+	background-color:#40b79d;
+}

@@ -1,0 +1,476 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:'Roboto';
+	font-weight:300;
+}
+body{
+	background-color:#fdfdfd;
+}
+header{
+	width:100%;
+	height:50px;
+	position:relative;
+	background-color:#008080;
+}
+#Date{
+	margin:15px;
+	line-height:50px;
+	color:white;
+}
+#applicantPhoto{
+	width:auto;
+	height:30px;
+	position:absolute;
+	right:20px;
+	top:10px;
+}
+#details{
+	background-color:#f3f3f3;
+	width:250px;
+	text-align:center;
+	padding:10px;
+	position:absolute;
+	right:10px;
+	z-index:9999;
+	border-bottom:3px solid #008080;
+	visibility:hidden;
+	opacity:0;
+	-webkit-transition: visibility 0s, opacity 0.6s linear;
+	-moz-transition: visibility 0s, opacity 0.6s linear;
+	-o-transition: visibility 0s, opacity 0.6s linear;
+	transition: visibility 0s, opacity 0.6s linear;
+}
+#appProfImg{
+	width:auto;
+	height:110px;
+}
+.detailsApp{
+	width:auto;
+	padding-top:15px;
+	padding-left:8px;
+	padding-bottom:10px;
+	font-size:20px;
+}
+.detailsApp:last-child{
+	padding-top:0;
+}
+#container{
+	width:100%;
+	height:auto;
+	position:relative;
+}
+#headLabel{
+	margin:20px;
+	padding:10px;
+	background-color:white;
+	border-radius:3px;
+	border:1px solid #d8d8d8;
+	font-size:30px;
+	font-weight:250;
+	position:relative;
+}
+#timer{
+	position:absolute;
+	right:10px;
+	color:black;
+	font-weight:100;
+}
+#time{
+	font-weight:100;
+	color:#f80932;
+}
+#content{
+	position:relative;
+	height:400px;
+	margin:20px;
+}
+#questionBox{
+	width:70%;
+	float:left;
+}
+#questionNo{
+	height:auto;
+	position:relative;
+	padding:10px;
+	background-color:white;
+	border-radius:3px;
+	border:1px solid #d8d8d8;
+}
+#question{
+	height:280px;
+	position:relative;
+	margin-top:5px;
+	padding:20px;
+	background-color:white;
+	border-radius:3px;
+	border:1px solid #d8d8d8;
+}
+.Qs{
+	font-size:20px;
+	padding:10px;
+}
+.Qp{
+	font-size:24px;
+	margin-bottom:20px;
+}
+.qOpLabel{
+	margin-bottom:10px;
+	font-size:18px;
+}
+.qOp{
+	width:27px;
+	height:27px;
+	margin-right:6px;
+	vertical-align:middle;
+}
+#questionBottom{
+	height:auto;
+	position:relative;
+	margin-top:5px;
+	background-color:white;
+	border-radius:3px;
+	border:1px solid #d8d8d8;
+	text-align:center;
+}
+.qButton{
+	border:none;
+	padding:5px;
+	line-height:30px;
+	background-color:#e2e2e2;
+	padding-left:10px;
+	padding-right:10px;
+	font-size:18px;
+	-webkit-transition:background-color 0.75s;
+	-moz-transition:background-color 0.75s;
+	-o-transition:background-color 0.75s;
+	transition:background-color 0.75s;
+}
+.qButton#prevButton:hover{
+		background-color:#008080;
+		color:white;
+}
+.qButton#saveButton:hover{
+		background-color:#008000;
+		color:white;
+}
+.qButton#mfrButton:hover{
+		background-color:#ff3800;
+		color:white;
+}
+.qButton#clearButton:hover{
+		background-color:#08457e;
+		color:white;
+}
+.qButton#quesButton:hover{
+		background-color:purple;
+		color:white;
+}
+.qButton#nextButton:hover{
+		background-color:#008080;
+		color:white;
+}
+.qButton#wsButton:hover{
+		background-color:#a40000;
+		color:white;
+}
+.qButton#submitButton:hover{
+		background-color:green;
+		color:white;
+}
+.qButton#summaryButton:hover{
+		background-color:orange;
+		color:white;
+}
+.qButton#instrucButton:hover{
+		background-color:gray;
+		color:white;
+}
+#prevButton{
+	position:absolute;
+	left:0;
+}
+#nextButton{
+	position:absolute;
+	right:0;
+}
+.buttIcon{
+	width:auto;
+	height:20px;
+	margin-right:5px;
+}
+#workSpaceBox{
+	margin-top:5px;
+	text-align:center;
+	position:relative;
+}
+#spaceForSolving{
+	width:96%;
+	height:150px;
+	margin-top:5px;
+	padding:10px;
+	font-size:20px;
+	background-color:white;
+	border-radius:3px;
+	border:1px solid #d8d8d8;
+}
+#saveImg{
+	width:80px;
+	height:80px;
+}
+/*-----------End Buttons------------*/
+#insSub{
+	margin:10px;
+	padding:10px;
+	float:right;
+	text-align:center;
+}
+#containerdiv{
+	margin:10px;
+	padding:10px;
+	text-align:center;
+}
+/*-----------SideBar Pallete-----------*/
+#sideBar{
+	width:26.7%;
+	height:100%;
+	float:left;
+	margin-left:20px;
+	position:relative;
+	padding:10px;
+	background-color:white;
+	border-radius:3px;
+	border:1px solid #d8d8d8;
+}
+#qpHead{
+	font-size:20px;
+	font-weight:300;
+	text-align:center;
+	position:relative;
+	padding-bottom:20px;
+}
+/*-----------SideBar Pallete - Questions------*/
+#qPallete{
+	width:auto;
+	position:relative;
+}
+.qPalleteQuesNo{
+	width:20%;
+	text-align:center;
+	margin-bottom:20px;
+	float:left;
+	position:relative;
+}
+.qPalleteQuesNoButton{
+	width:50px;
+	height:50px;
+	border:none;
+	border-radius:50px;
+	background-color:#f4f4f4;
+	font-size:18px;
+	/*-webkit-transition:background-color 0.4s;
+	-moz-transition:background-color 0.4s;
+	-o-transition:background-color 0.4s;
+	transition:background-color 0.4s;*/
+}
+.qPalleteQuesNoButton:active{
+	background:-webkit-radial-gradient(black,black);
+	background:-moz-radial-gradient(black,black);
+	background:radial-gradient(black,black);
+}
+.qPalleteQuesNoButton:hover{
+	background-color:#caede0;
+    cursor: pointer;
+}
+.qPalleteQuesNoButton:focus{
+    outline-style:none;
+}
+/*-----------SideBar Pallete Bottom-----------*/
+#qpColors{
+	width:91%;
+	position:absolute;
+	bottom:10px;
+	padding-left:15px;
+	padding-top:10px;
+	border-top:1px solid #d8d8d8;
+}
+.qpColorBox{
+	width:50%;
+	height:30px;
+	float:left;
+}
+.qpColor{
+	width:20px;
+	height:20px;
+	float:left;
+	margin-right:5px;
+}
+.qpColor#ans{
+	background-color:#008000;
+}
+.qpColor#notAns{
+	background-color:#e03c31;
+}
+.qpColor#mfr{
+	background-color:#08457e;
+}
+.qpColor#notVis{
+	background-color:#f4f4f4;
+}
+
+/*----------------Footer------------*/
+#footer{
+	width:100%;
+	height:50px;
+	position:relative;
+	float:left;
+}
+<!--footer{
+	position:fixed;
+	bottom:0;
+	width:100%;
+	height:40px;
+	background-color:#008080/*#3eb489*/;
+}-->
+/*-------------------------Footer-------------------*/
+footer {
+	position:fixed;
+	bottom:0px;
+	z-index:997;
+	width:100%;
+	height:auto;
+	padding-top:3px;
+	padding-bottom:3px;
+	background-color:#008080;
+	color:white;
+	text-align:center;
+	font-size:13px;
+	font-family:'Roboto', sans-serif;
+}
+footer p{
+	margin:10px;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+/*----------For Question Paper---------------*/
+#moreParent{
+	position:absolute;
+	top:0;
+	width:100%;
+	height:100%;
+	z-index:998;
+	overflow:hidden;
+}
+#more {
+	position:fixed;
+	top:60px;
+	left:80px;
+	z-index:999;
+	width:83%;
+	height:90%;
+	border-radius:15px;
+	padding:20px;
+	background-color:white;
+	border:2px solid black;
+	opacity:0.95;
+	box-shadow:0 0 20px gray;
+	text-align:center;
+	overflow:auto;
+}
+#moreInfoDiv{
+	border-bottom:1px solid #a9a9a9;
+	padding-top:7px;
+	margin-left:13px;
+	padding-bottom:7px;
+	width:48%;
+	float:left;
+	color:black;
+}
+#more p {
+	text-align:justify;
+	color:black;
+	font-family:'Roboto';
+	font-size:18px;
+	font-weight:300;
+	line-height:35px;
+}
+
+#more #close{
+    display: block;
+    position:fixed;
+	right:115px;
+	top:68px;
+	width:20px;
+	height:auto;
+    cursor: pointer;
+}
+/*------------------Test Summary---------------*/
+
+#summaryParent{
+	position:absolute;
+	top:0;
+	width:100%;
+	height:100%;
+	z-index:998;
+}
+
+#moreSumm {
+	position:fixed;
+	top:27%;
+	left:37%;
+	z-index:999;
+	width:200px;
+	height:auto;
+	border-radius:15px;
+	padding:20px;
+	background-color:white;
+	border:2px solid black;
+	opacity:0.95;
+	box-shadow:0 0 20px gray;
+	text-align:center;
+}
+#moreSumm #close{
+    display: block;
+    position:absolute;
+	right:10px;
+	top:10px;
+	width:20px;
+	height:auto;
+    cursor: pointer;
+}
+
+/*-----------Test Instructions--------------*/
+#instrucParent{
+	position:absolute;
+	top:0;
+	width:100%;
+	height:100%;
+	z-index:998;
+}
+#instructions{
+	position:fixed;
+	top:60px;
+	left:80px;
+	z-index:999;
+	width:83%;
+	height:90%;
+	border-radius:15px;
+	padding:20px;
+	background-color:white;
+	border:2px solid black;
+	opacity:0.95;
+	box-shadow:0 0 20px gray;
+	overflow:auto;
+}
+#instructions #close{
+    display: block;
+    position:fixed;
+	right:115px;
+	top:68px;
+	width:20px;
+	height:auto;
+    cursor: pointer;
+}

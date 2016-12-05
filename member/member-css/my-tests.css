@@ -1,0 +1,27 @@
+.start-game-button{
+	position:fixed;
+	bottom:10px;
+	left:10;
+	right:10;
+	color:white;
+	background-color:#654321;
+	padding:10px;
+	font-size:22px;
+}
+.start-game-button:active{
+	background-color:gray;
+}
+.game-icon, .game-instructions{
+	text-align:center;
+	padding:10px;
+}
+.instructions-ul{
+	margin-left:40px;
+	margin-top:10px;
+}
+.instructions-ul li{
+	width:90%;
+	overflow:wrap;
+	text-align:left;
+	color:white;
+}

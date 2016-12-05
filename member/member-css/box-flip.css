@@ -1,0 +1,48 @@
+.game-box{
+	position:relative;
+	width:31.7%;
+	height:450px;
+	display:inline-block;
+	margin-right:2%;
+}
+.game-box:last-child{
+	margin-right:0;
+}
+.game-box > .game-icon{
+	position:absolute;
+	-webkit-transform: perspective( 800px ) rotateY( 0deg );
+	transform: perspective( 800px ) rotateY( 0deg );
+	
+	width:100%;
+	height:100%;
+	background-color:#36454f;
+	color:white;
+	
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	transition: -webkit-transform .5s linear 0s;
+	transition: transform .5s linear 0s;
+}
+.game-box > .game-instructions{
+	position:absolute;
+	-webkit-transform: perspective( 800px ) rotateY( 180deg );
+	transform: perspective( 800px ) rotateY( 180deg );
+	
+	width:100%;
+	height:100%;
+	background-color:#b87333;
+	
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	transition: -webkit-transform .5s linear 0s;
+	transition: transform .5s linear 0s;
+}
+
+#game-box:hover > .game-icon{
+	-webkit-transform: perspective( 800px ) rotateY( -180deg );
+	transform: perspective( 800px ) rotateY( -180deg );
+}
+#game-box:hover > .game-instructions{
+	-webkit-transform: perspective( 800px ) rotateY( 0deg );
+	transform: perspective( 800px ) rotateY( 0deg );
+}

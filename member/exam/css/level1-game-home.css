@@ -1,0 +1,346 @@
+.game-box{
+	position:relative;
+	width:31.8%;
+	height:450px;
+	float:left;
+	display:block;
+	margin-right:28px;
+	background-color:red;
+}
+.game-box#item-1,.game-box#item-2,.game-box#item-3,.game-box#item-4{
+	background-color:#6f4e37;
+}
+.game-box:last-child{
+	margin-right:0;
+}
+.start-game-button{
+	position:absolute;
+	bottom:25px;
+	left:25%;
+	width:50%;
+	padding:10px;
+	font-size:30px;
+	font-family:'Advent Pro';
+	border:none;
+	outline:none;
+	cursor:pointer;
+	border-bottom:5px solid black;
+	box-shadow:0 0 2px gray;
+	
+	background: #fcfff4; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #fcfff4 0%, #e9e9ce 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#fcfff4), color-stop(100%,#e9e9ce)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  #fcfff4 0%,#e9e9ce 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  #fcfff4 0%,#e9e9ce 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  #fcfff4 0%,#e9e9ce 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  #fcfff4 0%,#e9e9ce 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#e9e9ce',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.start-game-button:active{
+	background:gray;
+	color:white;
+}
+#item-1-game-name{
+	width:100%;
+}
+#item-1-game-name .color_game{
+	width:10%;
+	height:35px;
+	padding-top:10px;
+	float:left;
+	font-weight:500;
+	text-align:center;
+	vertical-align:middle;
+}
+.color_game#c1{
+	background-color:red;
+	color:white;
+}
+.color_game#o2{
+	background-color:#00009c;
+	color:white;
+}
+.color_game#l3{
+	background-color:#ffef00;
+	color:black;
+}
+.color_game#o4{
+	background-color:#ff003f;
+	color:white;
+}
+.color_game#u5{
+	background-color:black;
+	color:white;
+}
+.color_game#r6{
+	background-color:#228b22;
+	color:white;
+}
+.color_game#g7{
+	background-color:#b5651d;
+	color:white;
+}
+.color_game#a8{
+	background-color:purple;
+	color:white;
+}
+.color_game#m9{
+	background-color:#87ceeb;
+	color:black;
+}
+.color_game#e10{
+	background-color:orange;
+	color:white;
+}
+.instructions-box{
+	margin:5%;
+	width:90%;
+	margin-top:13%;
+	z-index:1000;
+}
+#submitButton{
+	padding:10px;
+	font-size:20px;
+	background-color:#4b3621;
+	color:white;
+	border:0;
+	cursor:pointer;
+	margin-right:30px;
+	transition:background-color 1s;
+}
+
+#submitButton:hover{
+	background-color:#a67b5b;
+}
+#submitButton:active{
+	background-color:black;
+}
+h3.instructions-name{
+	font-size:20px;
+	font-weight:400;
+	color:white;
+	z-index:1000;
+}
+.game-2-heading{
+	margin:0;
+	padding:10px;
+	color:yellow;
+	text-align:center;
+	font-family:'Advent Pro';
+}
+#color_game_bg,#unscramble_me,#aptitude_bg{
+	width:100%;
+	height:100%;
+	opacity:0.1;
+	position:absolute;
+	top:0;
+	z-index:0;
+}
+#unscramble_it_head{
+	color:#e7feff;
+	font-family:'Advent Pro';
+	font-size:60px;
+	text-align:center;
+	margin-top:15px;
+}
+#lrt_head{
+	color:#e7feff;
+	font-family:'Advent Pro';
+	font-size:40px;
+	text-align:center;
+	margin-top:25px;
+}
+/*-----------------Main Game-----------------*/
+.main-game-overlay{
+	position:fixed;
+	top:0;left:0;
+	z-index:2000;
+	background: rgba(0,0,0, 0.7);
+	width:100%;
+	height:100%;
+	text-align:center;
+}
+#game-1,#game-2,#game-3{
+	margin:30px;
+}
+/*-----------------Game-1-----------------*/
+#game-1{
+	position:relative;
+}
+#main-game-box-1{
+	width:350px;
+	margin-left:36%;
+	margin-top:5%;
+}
+#color-string-box{
+	background: #feffe8; /* Old browsers */
+	background: -moz-linear-gradient(top, #feffe8 0%, #d6dbbf 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#feffe8), color-stop(100%,#d6dbbf)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #feffe8 0%,#d6dbbf 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #feffe8 0%,#d6dbbf 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #feffe8 0%,#d6dbbf 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #feffe8 0%,#d6dbbf 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffe8', endColorstr='#d6dbbf',GradientType=0 );
+	
+	
+	text-align: center;
+	width: 100%;
+	height:160px;
+	border-radius:7px;
+}
+#color-string{
+	vertical-align:middle;
+	text-shadow:1px 1px grey;
+	font-size:100px;
+}
+#validate-game-1{
+	padding-top:3px;
+	width: 100%;
+	margin-top:25px;
+}
+#correct,#wrong{
+	width:80px;
+	height:80px;
+	margin-left:10px;
+}
+#time-box-game-1,#time-box-game-2,#time-box-game-3{
+	color:white;
+	font-size:25px;
+}
+#time-left-game-1, #time-left-game-2, #time-left-game-3{
+	border: 2px double black;
+	border-radius: 5px;
+	padding: 4px;
+	color:black;
+	background-color:white;
+}
+/*--------------------Unscramble--------------------*/
+#game-content{
+	width:500px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5%;
+	color:white;
+}
+#quesDescription{
+	width:auto;
+	font-family:'Advent Pro';
+	font-weight:100;
+	font-size:25px;
+	text-align:center;
+}
+#question{
+	width:auto;
+	height:180px;
+	font-family:'Advent Pro';
+	font-weight:200;
+	font-size:120px;
+	text-align:center;
+	color:white;
+	
+	background: #45484d; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #45484d 0%, #000000 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#45484d), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg, #45484d 0%,#000000 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg, #45484d 0%,#000000 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg, #45484d 0%,#000000 100%); /* IE10+ */
+	background: linear-gradient(135deg, #45484d 0%,#000000 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+#options{
+	width:auto;
+	height:160px;
+	padding-left:65px;
+}
+.optbutton{
+	position:relative;
+	width:140px;
+	border-radius:20px;
+	float:left;
+	height:40px;
+	margin:20px;
+	padding:3px;
+	background-color:black;
+	box-shadow:2px 2px 10px #0c1123;
+	font-family:'Advent Pro';
+	font-weight:200;
+	font-size:20px;
+	color:white;
+	cursor:pointer;
+}
+.optbutton:active{
+	background:-webkit-radial-gradient(#71bc78, #b4dbb7);
+	background:-moz-radial-gradient(#71bc78, #b4dbb7);
+	background:radial-gradient(#71bc78, #b4dbb7);
+}
+/*---------------------Aptitude--------------------------*/
+#game-3-overlay{
+	text-align:center;
+	padding-top:15px;
+}
+#aptitude-test{
+	width:90%;
+	height:95%;
+	background-color:white;
+	margin:0 auto;
+	overflow:scroll;
+}
+#logical_reasoning_title{
+	margin-bottom:15px;
+	padding:10px;
+	background-color:#654321;
+	width:88.6%;
+	color:white;
+	font-family:'Advent Pro';
+	position:fixed;
+}
+#q1_div{
+	margin-top:90px;
+}
+.q_div{
+	width:90%;
+	text-align:left;
+	margin:0 auto;
+	margin-bottom:25px;
+}
+.Question{
+	font-size:20px;
+	margin-bottom:25px;
+}
+.radioBtn{
+	width:25px;
+	height:25px;
+	margin-right:10px;
+	float:left;
+}
+.q_div td{
+	font-size:20px;
+	vertical-align:middle;
+	padding-bottom:10px;
+}
+#aptitude_submit{
+	border:none;
+	font-size:20px;
+	padding:10px;
+	width:100px;
+	background-color:#654321;
+	color:white;
+	cursor:pointer;
+	outline:0;
+	margin:20px;
+	-webkit-transition:background-color 1s;
+	transition:background-color 1s;
+}
+#aptitude_submit:hover{
+	background-color:gray;
+}
+#aptitude_submit:active{
+	background-color:black;
+}
+img#done_aptitude{
+	width:18px;
+	height:auto;
+	margin-right:5px;
+}

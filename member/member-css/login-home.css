@@ -1,0 +1,93 @@
+#my-level{
+	width:300px;
+	height:100px;
+	position:relative;
+	background-color:white;
+	font-size:15px;
+	font-family:'Roboto';
+	font-weight:200;
+	margin-bottom:15px;
+	color:black;
+}
+div#content-body{
+	height:455px;
+	width:100%;
+	position:relative;
+}
+.content-body-item{
+	padding:20px;
+	font-size:20px;
+	width:32%;
+	height:100%;
+	float:left;
+	font-family:'Roboto';
+	font-weight:300;
+	color:white;
+	line-height:30px;
+	margin-right:2%;
+	margin-bottom:15px;
+	background-color:#36454f;
+	border-top:4px solid #3eb489;
+	border-bottom:4px solid #3eb489;
+	text-align:center;
+	color:#3eb489;
+}
+.content-body-item:last-child{
+	margin-right:0;
+}
+.content-body-item-head{
+	font-size:30px;
+	font-family:'Advent pro';
+	margin-bottom:10px;
+	font-weight:500;
+	color:white;
+}
+#user-photo{
+	width:150px;
+	height:165px;
+	margin:10px;
+	border-radius:70px;
+}
+.career-interest{
+	font-size:17px;
+	color:white;
+	margin-top:5px;
+}
+.career-interest-info{
+	font-size:27px;
+	color:white;
+	font-weight:400;
+	font-family:'Advent Pro';
+}
+.career-interest-list{
+	text-align:left;
+	margin-left:70px;
+}
+#test-statistics{
+	width:90%;
+	height:290px;
+	background-color:white;
+	margin:10px;
+	margin-bottom:30px;
+	border-top:25px solid white;
+	border-left:10px solid white;
+	outline:5px solid gray;
+}
+#more-details{
+	padding:8px;
+	font-size:18px;
+	font-weight:300;
+	font-family:'Roboto';
+	border-radius:3px;
+	border:none;
+	cursor:pointer;
+	color:white;
+	background-color:#536872;
+}
+#more-details:hover{
+	opacity:0.6;
+}
+#more-details:active{
+	background-color:gray;
+	opacity:1;
+}

@@ -1,0 +1,18 @@
+#content-body{
+	width:100%;
+	height:auto;
+	background-color:white;
+	border-top:4px solid #3eb489;
+	border-bottom:4px solid #3eb489;
+	padding:20px;
+}
+.disclaimer_content_head{
+	color:#36454f;
+	margin-bottom:10px;
+	font-weight:400;
+}
+.disclaimer_content{
+	color:gray;
+	line-height:25px;
+	margin-bottom:10px;
+}

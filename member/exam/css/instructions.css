@@ -1,0 +1,125 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:'Roboto';
+	font-weight:300;
+}
+body{
+	background-color:#fdfdfd;
+}
+header{
+	width:100%;
+	height:50px;
+	position:relative;
+	background-color:#008080;
+}
+#Date{
+	margin:15px;
+	line-height:50px;
+	color:white;
+}
+#applicantPhoto{
+	width:auto;
+	height:30px;
+	position:absolute;
+	right:20px;
+	top:10px;
+}
+#details{
+	background-color:#f3f3f3;
+	width:250px;
+	text-align:center;
+	padding:10px;
+	position:absolute;
+	right:10px;
+	z-index:9999;
+	border-bottom:3px solid #008080;
+	visibility:hidden;
+	opacity:0;
+	-webkit-transition: visibility 0s, opacity 0.6s linear;
+	-moz-transition: visibility 0s, opacity 0.6s linear;
+	-o-transition: visibility 0s, opacity 0.6s linear;
+	transition: visibility 0s, opacity 0.6s linear;
+}
+#appProfImg{
+	width:auto;
+	height:80px;
+}
+.detailsApp{
+	width:auto;
+	padding-top:15px;
+	padding-left:8px;
+	padding-bottom:10px;
+	font-size:20px;
+}
+#container{
+	width:100%;
+	height:auto;
+	position:relative;
+}
+#headLabel{
+	margin:20px;
+	padding:10px;
+	background-color:white;
+	border-radius:3px;
+	border:1px solid #d8d8d8;
+	font-size:30px;
+	font-weight:250;
+	position:relative;
+	text-align:center;
+}
+#content{
+	position:relative;
+	height:auto;
+	width:auto;
+	margin:20px;
+	padding:20px;
+	background-color:white;
+	border-radius:3px;
+	border:1px solid #d8d8d8;
+	padding-bottom:50px;
+}
+.qPalleteQuesNoButton{
+	width:50px;
+	height:50px;
+	border:none;
+	border-radius:50px;
+	background-color:#f4f4f4;
+	font-size:18px;
+	-webkit-transition:background-color 0.4s;
+	-moz-transition:background-color 0.4s;
+	-o-transition:background-color 0.4s;
+	transition:background-color 0.4s;
+}
+#confirm-redirect{
+	background-color:#008080;
+	width:250px;
+	border-radius:5px;
+	padding:10px;
+}
+#confirm-redirect:hover{
+	background-color:#004040;
+}
+#confirm-redirect:active {
+    vertical-align: top;
+	background-color:#003333;
+	padding:12px;
+}
+/*-------------------------Footer-------------------*/
+footer {
+	position:fixed;
+	bottom:0px;
+	z-index:997;
+	width:100%;
+	height:auto;
+	padding-top:3px;
+	padding-bottom:3px;
+	background-color:#008080;
+	color:white;
+	text-align:center;
+	font-size:13px;
+	font-family:'Roboto', sans-serif;
+}
+footer p{
+	margin:10px;
+}

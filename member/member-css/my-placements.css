@@ -1,0 +1,13 @@
+#content-body{
+	width:100%;
+	height:auto;
+	background-color:white;
+	border-top:4px solid #3eb489;
+	border-bottom:4px solid #3eb489;
+	text-align:center;
+}
+.images_companies{
+	margin:20px;
+	height:50px;
+	display:inline;
+}

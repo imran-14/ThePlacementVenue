@@ -1,0 +1,18 @@
+#header{
+	width:100%;
+	height:60px;
+	background-color:black;
+	color:white;
+	position:relative;
+}
+.nav_member li{
+	display:block;
+	float:left;
+	margin:10px;
+}
+#logout{
+	width:30px;
+	height:auto;
+	position:absolute;
+	top:15px;
+}

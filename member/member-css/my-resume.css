@@ -1,0 +1,61 @@
+div#content-body{
+	height:auto;
+	width:100%;
+	position:relative;
+	padding:20px;
+	background-color:white;
+	border-top:4px solid #3eb489;
+	border-bottom:4px solid #3eb489;
+	font-size:20px;
+	font-family:'Roboto';
+	font-weight:200;
+	color:black;
+	line-height:30px;
+	margin-bottom:15px;
+}
+div#content-body .labels{
+	padding:15px;
+	padding-right:70px;
+	font-weight:300;
+}
+h3.info-head{
+	font-family:'Roboto';
+	font-weight:400;
+	color:#3eb489;
+	margin-top:15px;
+	margin-bottom:5px;
+}
+h3.info-head:first-child{
+	margin-top:0px;
+	margin-bottom:5px;
+}
+#user-photo-and-sign{
+	width:180px;
+	height:auto;
+	position:absolute;
+	right:40px;
+}
+
+#user-photo{
+	position:relative;
+	width:100%;
+	height:auto;
+	border:2px solid #3eb489;
+}
+#user-sign{
+	width:100%;
+	height:auto;
+	position:relative;
+}
+#edu-info{
+	border:1px solid #3eb489;
+	margin-top:10px;
+}
+#edu-info td{
+	border:1px solid #3eb489;
+	padding:10px;
+}
+#edu-info thead td.labels{
+	text-align:center;
+	margin:0;
+}
